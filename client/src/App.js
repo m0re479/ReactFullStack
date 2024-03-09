@@ -1,12 +1,12 @@
+import React from "react";
+import Header from "./components/Header";
 
-import './App.css';
-
+ 
 function App() {
-  return (
-    <div className="App">
-        <p>Hello, world </p>
-    </div>
-  );
+    return (
+        // Using the newly created Header
+        // component in this main component
+        <Header />
+    );
 }
-
 export default App;
